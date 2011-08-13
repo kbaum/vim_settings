@@ -17,3 +17,5 @@ set autoindent
 nmap <silent> <c-n> :NERDTreeToggle<CR>
 nmap <silent> f mzgg=G'z<CR
 nnoremap <C-b> :bnext<CR>
+nmap <C-c> <Plug>Kwbd
+

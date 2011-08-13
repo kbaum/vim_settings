@@ -14,6 +14,6 @@ set smarttab
 let g:rubycomplete_rails = 1
 filetype indent on
 set autoindent
-set number
 nmap <silent> <c-n> :NERDTreeToggle<CR>
 nmap <silent> f mzgg=G'z<CR
+nnoremap <C-b> :bnext<CR>

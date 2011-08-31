@@ -7,15 +7,13 @@ Installation:
 -------------
 Move aside any .vim dir and .vimrc if they exist.
 
-``
-mv $HOME/.vim $HOME/.vim.inferior
-mv $HOME/vimrc $HOME/.vimrc.inferior
-``
+    mv $HOME/.vim $HOME/.vim.inferior
+    mv $HOME/vimrc $HOME/.vimrc.inferior
 
 And then:
 
-`` 
-cd $HOME && git clone git://github.com/kbaum/vim_settings.git .vim && ln -s ./.vim/.vimrc
-``
+ 
+    cd $HOME && git clone git://github.com/kbaum/vim_settings.git .vim && ln -s ./.vim/.vimrc
+
 
 Your golden.

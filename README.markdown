@@ -7,7 +7,6 @@ Installation:
 -------------
 
 `` 
-git clone
+git clone git://github.com/kbaum/vim_settings.git .vim && ln -s ./.vim/.vimrc
 ``
-
 

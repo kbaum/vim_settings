@@ -11,6 +11,7 @@ set ai
 set guifont=Courier:h10
 set expandtab
 set smarttab
+set hidden
 let g:rubycomplete_rails = 1
 filetype indent on
 set autoindent
@@ -18,4 +19,5 @@ nmap <silent> <c-n> :NERDTreeToggle<CR>
 nmap <silent> f mzgg=G'z<CR
 nnoremap <C-b> :bnext<CR>
 nmap <C-c> <Plug>Kwbd
+nmap <C-r> :CommandTFlush<CR>
 

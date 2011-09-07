@@ -20,4 +20,4 @@ nmap <silent> f mzgg=G'z<CR
 nnoremap <C-b> :bnext<CR>
 nmap <C-c> <Plug>Kwbd
 nmap <C-r> :CommandTFlush<CR>
-
+au BufNewFile,BufRead *.less set filetype=less
